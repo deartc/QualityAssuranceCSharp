@@ -1,0 +1,2 @@
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\obj\x86\Debug\QualityAssuranceCSharp.csproj.AssemblyReference.cache
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\obj\x86\Debug\QualityAssuranceCSharp.csproj.CoreCompileInputs.cache

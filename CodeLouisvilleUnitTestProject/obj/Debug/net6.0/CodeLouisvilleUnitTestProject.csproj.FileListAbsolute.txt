@@ -22,3 +22,15 @@ C:\Users\4dear\source\repos\CarParts\CarParts\CodeLouisvilleUnitTestProject\obj\
 C:\Users\4dear\source\repos\CarParts\CarParts\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\refint\CodeLouisvilleUnitTestProject.dll
 C:\Users\4dear\source\repos\CarParts\CarParts\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\CodeLouisvilleUnitTestProject.pdb
 C:\Users\4dear\source\repos\CarParts\CarParts\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\ref\CodeLouisvilleUnitTestProject.dll
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\bin\Debug\net6.0\CodeLouisvilleUnitTestProject.deps.json
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\bin\Debug\net6.0\CodeLouisvilleUnitTestProject.dll
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\bin\Debug\net6.0\CodeLouisvilleUnitTestProject.pdb
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\CodeLouisvilleUnitTestProject.csproj.AssemblyReference.cache
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\CodeLouisvilleUnitTestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\CodeLouisvilleUnitTestProject.AssemblyInfoInputs.cache
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\CodeLouisvilleUnitTestProject.AssemblyInfo.cs
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\CodeLouisvilleUnitTestProject.csproj.CoreCompileInputs.cache
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\CodeLouisvilleUnitTestProject.dll
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\refint\CodeLouisvilleUnitTestProject.dll
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\CodeLouisvilleUnitTestProject.pdb
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CodeLouisvilleUnitTestProject\obj\Debug\net6.0\ref\CodeLouisvilleUnitTestProject.dll
