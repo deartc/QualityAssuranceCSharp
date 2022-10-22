@@ -1,3 +1,4 @@
-# QualityAssuranceCSharp
+# Quality Assurance in C #
 
-This is the C Sharp Project.
+ Quality Assurance in C # is a demonstration
+ of quality assurance and C # skills
