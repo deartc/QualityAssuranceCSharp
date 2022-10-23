@@ -1,36 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-
-
-
-namespace
-Vehicle
+﻿
+namespace CodeLouisvilleUnitTestProject
 {
-    public class Car
+    class Car : Vehicle
     {
-        public string Make { get; set; }
-        public string Model { get; set; }
-        public int GasTankCapacity { get; set; }
-        public double GasLevel { get; set; }
-        public double MilesPerGallon { get; set; }
-        public double Odometer { get; set; } = 0;
-        public double MilesRemaining { get; set; }
-
-
-
-
-
-        public Car(string make, string model, int GasTankCapacity, double milesPerGallon)
+        public Car()
         {
-            Make = make;
-            Model = model;
-            GasTankCapacity = gasTankCapacity;
+        }
 
-            GasLevel = gasLevel;
-            MilesPerGallon = milesPerGallon;
+        static void Main(string[] args)
+        {
+            Car Honda = new Car("Civic", "Black", 1994);
+            Car Toyota = new Car("Prius", "Blue", 2005);
+
+            Console.WriteLine(Honda.model);
+            Console.WriteLine(Toyota.model);
+
+
 
         }
     }
@@ -60,6 +45,5 @@ Vehicle
 
 
 
-              
 
 
