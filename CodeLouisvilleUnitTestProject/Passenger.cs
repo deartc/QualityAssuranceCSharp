@@ -14,15 +14,15 @@ namespace QualityAssuranceCSharp.CodeLouisvilleUnitTestProject
 
 
 	  {
-	      Car { PassengerCount: 0 } => 100 + .2,
+
+	      Car 
+            { PassengerCount: 0 } => 100 + .2,
 	      Car
-{ PassengerCount: 1 } => 100,
+        { PassengerCount: 1 } => 100,
 	      Car
 { PassengerCount: 2 } => 100 - .2,
-      Car
-{ PassengerCount: 3 } => 100 - .4,
-      Car
-{ PassengerCount: 4 } => 100 - .6,
+      Car{ PassengerCount: 3 } => 100 - .4,
+      Car{ PassengerCount: 4 } => 100 - .6,
       Car
 { PassengerCount: 5 } => 100 - .8,
 
