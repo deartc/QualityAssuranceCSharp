@@ -9,7 +9,21 @@
         /// </summary>
         public SemiTruck()
         {
-            //YOUR CODE HERE: 
+            {
+                     static void Main(string[] args)
+                 {
+                    SemiTruck  = new SemiTruck();
+                    
+            TellMeHowManyWheelsThisHas(SemiTruck);
+                        }
+           
+               private static void TellMeHowManyWheelsThisHas(Vehicle vehicle)
+            {
+                   Console.WriteLine("This vehicle has {0} wheels", vehicle.HowManyWheelsShouldIHave());
+                        }
+               }
+            
+
             throw new NotImplementedException();
         }
 
