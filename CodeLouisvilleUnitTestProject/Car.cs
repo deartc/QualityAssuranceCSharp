@@ -1,62 +1,42 @@
-﻿using CodeLouisvilleUnitTestProject;
-using System.Reflection;
-
+﻿
 namespace using CodeLouisvilleUnitTestProject;
 
 public class Car : Vehicle
-{  
-    {
-        #region Public Properties
-        public string Make { get; }
-        public string Model { get; }
-        public double MilesPerGallon { get; set; }
-        public double GasTankCapacity { get; init; }
-        public int NumberOfTires { get; init; }
-        public int Year { get; set; }
-    }
-}
-#region Private Fields
-private double _gasRemaining;
-private double _mileage;
-private bool _hasFlatTire;
-#endregion
 
-
-
-
-public Car (int numberOfTires, double gasTankCapacity, string make, string model, double milesPerGallon, int year)
 {
-    NumberOfTires = numberOfTires;
-    GasTankCapacity = gasTankCapacity;
-    Make = make;
-    Model = model;
-    MilesPerGallon = milesPerGallon;
-    Year = year
+    public string Make { get; set; }
+    public string Model { get; set; }
+    public int Year { get; set; }
+
+    public Car (int numberOfTires, double gasTankCapacity, string make, string model, double milesPerGallon)
+    {
+        NumberOfTires = numberOfTires;
+        GasTankCapacity = gasTankCapacity;
+        Make = make;
+        Model = model;
+        MilesPerGallon = milesPerGallon;
+    
 }
 
 
-{
-    class Car
-    {
         static void Main(string[] args)
         {
-
-
-        Car = new car { Make = "Honda", Model = "Civic" Year = “2020” };
-
-            Car = new car  { Make = "Toyota", Model = "Prius" Year = “2020” };
-
-            Vehicle car = new Vehicle { Make = "Sabaru", Model = "Civic" Year = “2020” };
+            
+            Vehicle car = new Vehicle { Make = "Honda", Model = "Civic" Year = “2020” };
             //vehicle.Make = "Honda";
             //vehicle.Model = "Civic";
             //vehicle.Year = “2020”
 
-            
+            for (int i = 0; i < 4; i++)
             {
+                car.AddTire(Tire);
+            }
 
 
 
+            Console.WriteLine(car.ToString());
 
+    
         }
     }
 }
