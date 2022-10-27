@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="CodeLouisvilleUnitTestProject\Car.cs" />
     <Compile Include="CodeLouisvilleUnitTestProject\CargoItem.cs" />
+    <Compile Include="CodeLouisvilleUnitTestProject\CarWeb.cs" />
     <Compile Include="CodeLouisvilleUnitTestProject\Passenger.cs" />
     <Compile Include="CodeLouisvilleUnitTestProject\CustomExceptions.cs" />
     <Compile Include="CodeLouisvilleUnitTestProject\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />

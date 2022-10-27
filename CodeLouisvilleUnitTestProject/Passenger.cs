@@ -8,7 +8,8 @@ namespace QualityAssuranceCSharp.CodeLouisvilleUnitTestProject
      public class Passeneger
   
     {
-     
+        // not sure if the is a unit test or code
+       
      {public static int Passenger(object car);
 
 
@@ -16,15 +17,15 @@ namespace QualityAssuranceCSharp.CodeLouisvilleUnitTestProject
 	  {
 
 	      Car 
-            { PassengerCount: 0 } => 100 + .2,
+            { PassengerCount: 0 } => 21 + .2,
 	      Car
-        { PassengerCount: 1 } => 100,
+        { PassengerCount: 1 } => 21,
 	      Car
-{ PassengerCount: 2 } => 100 - .2,
-      Car{ PassengerCount: 3 } => 100 - .4,
-      Car{ PassengerCount: 4 } => 100 - .6,
+{ PassengerCount: 2 } => 21 - .2,
+      Car{ PassengerCount: 3 } =>  21 - .4,
+      Car{ PassengerCount: 4 } => 21 - .6,
       Car
-{ PassengerCount: 5 } => 100 - .8,
+{ PassengerCount: 5 } => 21 - .8,
 
 
 
