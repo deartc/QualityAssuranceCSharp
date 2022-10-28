@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 
 namespace QualityAssuranceCSharp.CodeLouisvilleUnitTestProject
 {
-    internal class CarWeb
+    class CarWeb
     {
         using Car;
-using System.Text.Json;
+
 
 
 string baseUrl = "https://vpic.nhtsa.dot.gov/api/ ";
@@ -19,6 +20,8 @@ string baseUrl = "https://vpic.nhtsa.dot.gov/api/ ";
         BaseAddress = new Uri(baseUrl)
     };
 
+
+    GetRequest("https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeId/480?format=json");
 
     Console.WriteLine("Make and Model of Car");
 Console.WriteLine("Enter 'q' to quit");
@@ -53,17 +56,17 @@ while(userInput != "q")
 
 
 
-Console.WriteLine($"Word: {definitionInfoList.FirstOrDefault().Word}");
+Console.WriteLine($"Car: {definitionInfoList.FirstOrDefault().Car}");
 
 
-foreach (var definitionInfo in definitionInfoList)
+foreach (var makeInfo in makeInfoList)
 {
-    foreach (var meaning in definitionInfo.Meanings)
+    foreach (var model in modelInfo.Model)
     {
-        var partOfSpeech = meaning.PartOfSpeech;
-        foreach (var definition in meaning.Definitions)
+        var AssemblyYear = model.AssemblyYear;
+        foreach (var model in model.AssemblyYear)
         {
-            Console.WriteLine($"{partOfSpeech} : {definition.Definition}");
+            Console.WriteLine($"{model} : {assemblyYear.AssemblyYear}");
         }
     }
 }

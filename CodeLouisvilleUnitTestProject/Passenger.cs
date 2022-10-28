@@ -32,3 +32,18 @@ namespace QualityAssuranceCSharp.CodeLouisvilleUnitTestProject
     }
     }
 }
+
+
+
+
+    
+Console.WriteLine("Please enter how many passengers you want to add or remove");
+var passenger = Console.ReadLine();
+Console.WriteLine("Please add or remove  passengers by  the following menu options:");
+Console.WriteLine("1: Add a passenger");
+Console.WriteLine("2: View all current passengers");
+Console.WriteLine("3: Remove a passenger by name");
+Console.WriteLine("Enter the name of the passenger to remove");
+
+
+Console.WriteLine("4: Exit");
