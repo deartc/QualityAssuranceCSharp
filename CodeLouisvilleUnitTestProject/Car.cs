@@ -1,36 +1,41 @@
-﻿
-namespace using CodeLouisvilleUnitTestProject;
-using System;
+﻿using Vehicle;
+using static MyApplication.CarDetail;
+using static System.Net.Mime.MediaTypeNames;
+using car = Vehicle.car;
 
-public class Car : Vehicle
-
+namespace CodeLouisvilleUnitTestProject;
 {
-    //The first with a GasTankCapacity of 0, an empty string for Make and Model, and a MilesPerGallon of 0. 
-    public string Make { get; set; }
-    public string Model { get; set; }
+ //The first with a GasTankCapacity of 0, an empty string for Make and Model, and a MilesPerGallon of 0. 
+   
+
+public class car
+    {
+
+
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public decimal MilesPerGallon { get; set; }
+        public decimal GasTankCapacity { get; set; }
+        public double GasTankCapacity { get; init; }
+       public double MilesPerGallon { get; set; }
+
+        public car()
+        {
+            Make = "make";
+            Model = "model";
+            MilesPerGallon = 0.00M;
+            GasTankCapacity = 0.00M;
+
+            public car (string make, string model, decimal milesPerGallon, decimal gasTankCapacity)
+            Make = make;
+            Model = model;
+            MilesPerGallon = milesPerGallon;
+            GasTankCapacity = GasTankCapacity;
+
+
+
     
-    public double GasTankCapacity { get; init; }
-    public double MilesPerGallon { get; set; }
-
-
-
-
-
-    // needed
-     for you.Create it yourself and implement it as follows:
-1.	Car inherits from Vehicle.
-2.	Car has a private field of type HttpClient to be used to call a public external API.
-1.	HttpClient documentation can be found here.
-3.	Car has a public integer property NumberOfPassengers with a public get accessor but a private set.
-
-        
  // double for GasTankCapacity MPG,string for Make, model.
-
-
-
-
-
-
 
     public double MilesPerGallon { get; set; }
     public double GasTankCapacity { get; init; }
@@ -47,29 +52,18 @@ public class Car : Vehicle
         Make = make;
         Model = model;
         MilesPerGallon = milesPerGallon;
-    public int Year { get; set; }
+        Year = Year;
+
 }
 
-
-
-
-
-
-
-
-    public double MilesPerGallon { get; set; }
-    public double GasTankCapacity { get; init; }
-    public int NumberOfTires { get; init; }
-    public string GasLevel => $"{_gasRemaining / GasTankCapacity * 100}%";
-    public double MilesRemaining => _gasRemaining * MilesPerGallon;
-    public double Mileage => _mileage;
-#endregion
 
 
     #region Private Fields
     private double _gasRemaining;
     private double _mileage;
     private bool _hasFlatTire;
+    private readonly string baseUrl = "https://vpic.nhtsa.dot.gov/api/ ";
+
     #endregion
 
 
@@ -79,13 +73,13 @@ public class Car : Vehicle
 
 
 
-    static void Main(string[] args)
+    static void MyApplication.CarDetail(string[] args)
         {
             
             Vehicle car = new Vehicle { Make = "Honda", Model = "Civic" Year = “2020” };
-            //vehicle.Make = "Honda";
-            //vehicle.Model = "Civic";
-            //vehicle.Year = “2020”
+            //car.Make = "Honda";
+            //car.Model = "Civic";
+            //car.Year = “2020”
 
             
             {
@@ -102,42 +96,6 @@ public class Car : Vehicle
 }
 
 
-Console.WriteLine("Car Statistics");
-
-Console.WriteLine("Please enter your make");
-var name = Console.ReadLine();
-
-Console.WriteLine("Please enter your model");
-var model = Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
-
-while (!DateTime.TryParse(AssemblyyearInput, out assemblyyear))
-{
-    Console.WriteLine("Invalid , no data is available for years before 1995");
-    AssemblyyearInput = Console.ReadLine();
-}
-
-
-
-
-
-
-};
-
-
-
-Console.WriteLine($"this is your car statistics: {Car.Make} " +
-    $"Your model is {Car.Model} " + $"Your mpg is {Car.MilesPerGallon} " + $"Your passengers is {Car.Passenger}" +
-    $"and your assemblyday is {Car.Assemblyday.ToShortDateString()}.");
 
 
 Console.WriteLine("Please add or remove  passengers by  the following menu options:");
