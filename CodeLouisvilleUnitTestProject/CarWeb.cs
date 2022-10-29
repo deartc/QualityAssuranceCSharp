@@ -8,10 +8,7 @@ namespace QualityAssuranceCSharp.CodeLouisvilleUnitTestProject
 {
     class CarWeb
     {
-        using Car;
-
-
-
+      
 string baseUrl = "https://vpic.nhtsa.dot.gov/api/ ";
 
 
