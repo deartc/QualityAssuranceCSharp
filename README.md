@@ -1,12 +1,12 @@
 # Quality Assurance in C #
 
+ #3.  UNIT TEST PROJECT:
+
  Quality Assurance in C # is a demonstration
  of quality assurance and C # skills.     
-    #3.  UNIT TEST PROJECT:
-	    
-	    
+  
    
-To run the project do the following: Clone github.com/deartc/Quality-Project-Teresa-Hawkins. The extensions used were C# and Net.  The NuGets used were xunit.  
+To run the project do the following: Clone github.com/deartc/QualityAssuranceInC#. The extensions used were C# and Net.  The NuGets used were xunit.  
 
 
 Requirements of classes completion: 
