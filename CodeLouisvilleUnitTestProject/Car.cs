@@ -77,11 +77,12 @@ public class car
     static void MyApplication.CarDetail(string[] args)
         {
             
-            Vehicle car = new Vehicle { Make = "Honda", Model = "Civic" Year = “2020” };
+            Vehicle car = new Vehicle { Make = "Honda", Model = "Civic" , Year = “2020”,  Tires = “4”, gasTankCapacity = “12, milesPerGallon  = "25" };
             //car.Make = "Honda";
             //car.Model = "Civic";
             //car.Year = “2020”
-
+            //car.Tires = "4"
+            
             
             {
                 
@@ -192,16 +193,7 @@ Console.WriteLine("4: Exit");
 
 
 
-//Test
 
-class Car : Vehicle
-{
-    public override int HowManyTiresShouldIHave()
-    {
-        return 4;
-    }
-
-}
 
 
 
