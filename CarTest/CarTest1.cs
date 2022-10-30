@@ -1,19 +1,19 @@
 using CodeLouisvilleUnitTestProject;
 {
 }
-    namespace CodeLouisvilleUnitTestProjectTests
+    namespace CodeLouisvilleUnitTestProject
     {
         public class CarTests
         {
             [Fact]
-            public void CreateNewCarTest()
+            public void CreateNewCar()
             {
-                //arrange & act
-                var car = new Car()
+            //arrange & act
+            var car = new Car();
     
             //assert
-            Assert.NotNull(car);
+            Assert.NotNull(car); 
             }
         }
 }
-   
+
