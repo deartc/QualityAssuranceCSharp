@@ -4,10 +4,28 @@
     {
         public List<CargoItem> Cargo { get; private set; }
 
-        /// <summary>
-        /// Creates a new SemiTruck that always has 18 Tires
-        /// </summary>
-        public SemiTruck()
+        public interface Vehicle
+        {
+            string Truck { get; set }
+            int Wheels { get; set }
+            string CargoItemSpecs { get; set }
+            string Cargo LoadedCargo { get; set;}
+    }
+
+
+
+    public class Truck
+    {
+        public int Wheels { get; set; }
+        public string CargoItemSpecs { get; set; }
+        public bool Cargo { get; set; }
+    }
+    var truck = new Truck() { Wheels = 18, CargoItemSpecs = "Empty", Cargo = true };
+
+    /// <summary>
+    /// Creates a new SemiTruck that always has 18 Tires
+    /// </summary>
+    public SemiTruck()
         {
             {
                      static void Main(string[] args)
