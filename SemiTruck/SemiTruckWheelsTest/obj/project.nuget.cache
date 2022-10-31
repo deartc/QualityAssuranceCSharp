@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qjphdaeLPS33arZUIGg5iLPZWnRfD/597MvxLULn2G85G9o/X8qFv5M//Irsnp14nLM9UglVGWOZNfOBlxdDHA==",
+  "dgSpecHash": "fZ4PDfIEA1yqF7pDSUsAEbdj30abD/YYPAxRozf1KOUXpolW7g/0tlsbl29em3OnOA21B57wEwE5Rz4DID2sYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\SemiTruck\\SemiTruckWheelsTest\\SemiTruckWheelsTest.csproj",
+  "projectFilePath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\SemiTruck\\SemiTruckWheelsTest\\CarTest3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\4dear\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\4dear\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

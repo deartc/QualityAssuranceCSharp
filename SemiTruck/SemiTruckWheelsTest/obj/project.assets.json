@@ -6114,9 +6114,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\SemiTruck\\SemiTruckWheelsTest\\SemiTruckWheelsTest.csproj",
-      "projectName": "SemiTruckWheelsTest",
-      "projectPath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\SemiTruck\\SemiTruckWheelsTest\\SemiTruckWheelsTest.csproj",
+      "projectUniqueName": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\SemiTruck\\SemiTruckWheelsTest\\CarTest3.csproj",
+      "projectName": "CarTest3",
+      "projectPath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\SemiTruck\\SemiTruckWheelsTest\\CarTest3.csproj",
       "packagesPath": "C:\\Users\\4dear\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\SemiTruck\\SemiTruckWheelsTest\\obj\\",
       "projectStyle": "PackageReference",
