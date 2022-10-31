@@ -21,6 +21,8 @@
 
         #region Private Properties
         private double _flatTireChance => 0.0001 * NumberOfTires;
+
+        public object Year { get; internal set; }
         #endregion
 
         public Vehicle()

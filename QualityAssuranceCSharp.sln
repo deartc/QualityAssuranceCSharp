@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoTest4", "CargoTest\Car
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cartestt2", "CarTest\Cartestt2\Cartestt2.csproj", "{C1DACD73-EF5E-4EE6-8057-76AC376D163E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarTest4", "CarTest\CarTest4\CarTest4.csproj", "{8E06EF62-15DA-493A-AAD2-548E9D981A19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,14 @@ Global
 		{C1DACD73-EF5E-4EE6-8057-76AC376D163E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1DACD73-EF5E-4EE6-8057-76AC376D163E}.Release|x86.ActiveCfg = Release|Any CPU
 		{C1DACD73-EF5E-4EE6-8057-76AC376D163E}.Release|x86.Build.0 = Release|Any CPU
+		{8E06EF62-15DA-493A-AAD2-548E9D981A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E06EF62-15DA-493A-AAD2-548E9D981A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E06EF62-15DA-493A-AAD2-548E9D981A19}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8E06EF62-15DA-493A-AAD2-548E9D981A19}.Debug|x86.Build.0 = Debug|Any CPU
+		{8E06EF62-15DA-493A-AAD2-548E9D981A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E06EF62-15DA-493A-AAD2-548E9D981A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E06EF62-15DA-493A-AAD2-548E9D981A19}.Release|x86.ActiveCfg = Release|Any CPU
+		{8E06EF62-15DA-493A-AAD2-548E9D981A19}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
