@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GO7p0fd3/tfYhWgpNyQwNeLi7Ie1jijZEuXwD4KPxj24JBkGKmqZ2NaPV0SWAa2gBfGnwnpEfwRLaPs/pXyoWQ==",
+  "dgSpecHash": "Qn503hv5GXMCoDtVwN29n53p5Kcc1t4ZuvLDrhhliXXr4kVWWNVmJiZz+JCBnOc8djNmrb52hxfM7Tgxuy0RFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\CargoTest\\CargoTest4\\CargoTest4.csproj",
+  "projectFilePath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\CarTest\\Cartestt2\\Cartestt2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\4dear\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
-    "C:\\Users\\4dear\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\4dear\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\4dear\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\4dear\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",

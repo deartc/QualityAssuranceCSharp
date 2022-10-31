@@ -1,3 +1,4 @@
+using Google.Protobuf.WellKnownTypes;
 using System.Xml.Linq;
 
 namespace CodeLouisvilleUnitTestProject 
@@ -13,20 +14,14 @@ namespace CodeLouisvilleUnitTestProject
             if (UnloadCargoWithInvalidCargoItem) return "<NO CARGO>";
             else return name;
         }
-        set { name = value; }
-}
 
+    }
 //assert
-throw new NotImplementedException();
+throw private new NotImplementedException();
             if (UnloadCargoWithInvalidCargoItem) Console.WriteLine("No cargo in " + vehicle.Name);
             else Console.WriteLine(Name + " has been loaded onto " + vehicle.Name);
 
-
-            t
         }
-
-
-
 
 
 //Verify that attempting to unload a CargoItem that does not

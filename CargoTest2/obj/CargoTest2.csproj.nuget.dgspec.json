@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\CargoTest\\CargoTest4\\CargoTest4.csproj": {}
+    "C:\\Users\\4dear\\source\\repos\\CargoTest2\\CargoTest2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\CargoTest\\CargoTest4\\CargoTest4.csproj": {
+    "C:\\Users\\4dear\\source\\repos\\CargoTest2\\CargoTest2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\CargoTest\\CargoTest4\\CargoTest4.csproj",
-        "projectName": "CargoTest4",
-        "projectPath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\CargoTest\\CargoTest4\\CargoTest4.csproj",
+        "projectUniqueName": "C:\\Users\\4dear\\source\\repos\\CargoTest2\\CargoTest2.csproj",
+        "projectName": "CargoTest2",
+        "projectPath": "C:\\Users\\4dear\\source\\repos\\CargoTest2\\CargoTest2.csproj",
         "packagesPath": "C:\\Users\\4dear\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\4dear\\source\\repos\\QualityAssuranceCSharp\\CargoTest\\CargoTest4\\obj\\",
+        "outputPath": "C:\\Users\\4dear\\source\\repos\\CargoTest2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\4dear\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,10 +40,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Google.Protobuf": {
-              "target": "Package",
-              "version": "[3.21.9, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
