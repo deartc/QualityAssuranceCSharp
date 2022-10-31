@@ -28,7 +28,7 @@ List<Passenger> passengers = new List<Passenger>();
 
     var options = new JsonSerializerOptions
     {
-        PropertyNameCaseInsensitive = true
+        PropertyNameCaseInsensitive = true;
     };
 
 
