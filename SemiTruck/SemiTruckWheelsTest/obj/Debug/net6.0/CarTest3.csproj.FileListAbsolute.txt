@@ -1,0 +1,5 @@
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\SemiTruck\SemiTruckWheelsTest\obj\Debug\net6.0\CarTest3.csproj.AssemblyReference.cache
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\SemiTruck\SemiTruckWheelsTest\obj\Debug\net6.0\CarTest3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\SemiTruck\SemiTruckWheelsTest\obj\Debug\net6.0\CarTest3.AssemblyInfoInputs.cache
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\SemiTruck\SemiTruckWheelsTest\obj\Debug\net6.0\CarTest3.AssemblyInfo.cs
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\SemiTruck\SemiTruckWheelsTest\obj\Debug\net6.0\CarTest3.csproj.CoreCompileInputs.cache

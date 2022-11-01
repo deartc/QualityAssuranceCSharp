@@ -1,60 +1,50 @@
-﻿namespace CodeLouisvilleUnitTestProject
+﻿
+namespace CodeLouisvilleUnitTestProject
 {
     public class SemiTruck : Vehicle
     {
         public List<CargoItem> Cargo { get; private set; }
 
-        public interface Vehicle
+        /// <summary>
+        /// Creates a new SemiTruck that always has 18 Tires
+        /// </summary>
+        public SemiTruck()
         {
-            string Truck { get; set }
-            int Wheels { get; set }
-            string CargoItemSpecs { get; set }
-            string Cargo LoadedCargo { get; set;}
-    }
+            public SemiTruck()
+        : this(0, 0, "", "", 0)
 
 
+public SemiTruck (numberOfWheels, double gasTankCapacity, string make, string model, double milesPerGallon)
+            {
+                NumberOfWheels = numberOfWheels;
+                GasTankCapacity = gasTankCapacity;
+                Make = make;
+                Model = model;
+                MilesPerGallon = milesPerGallon;
+            }
 
-    public class Truck
+
+            throw new NotImplementedException();
+        }
+
+        ///  not sure included     public class SemiTruck
     {
         public int Wheels { get; set; }
         public string CargoItemSpecs { get; set; }
         public bool Cargo { get; set; }
     }
-    var truck = new Truck() { Wheels = 18, CargoItemSpecs = "Empty", Cargo = true };
+    var SemiTruck = new SemiTruck() { Wheels = 18, CargoItemSpecs = "Empty", Cargo = true };
 
-    /// <summary>
-    /// Creates a new SemiTruck that always has 18 Tires
+
+    /// Adds the passed CargoItem to the Cargo
     /// </summary>
-    public SemiTruck()
-        {
-            {
-                     static void Main(string[] args)
-                 {
-                    SemiTruck  = new SemiTruck();
-                    
-            TellMeHowManyWheelsThisHas(SemiTruck);
-                        }
-           
-               private static void TellMeHowManyWheelsThisHas(Vehicle vehicle)
-            {
-                   Console.WriteLine("This vehicle has {0} wheels", vehicle.HowManyWheelsShouldIHave());
-                        }
-               }
-            
-
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// Adds the passed CargoItem to the Cargo
-        /// </summary>
-        /// <param name="item">The CargoItem to add</param>
-        public void LoadCargo(CargoItem item)
+    /// <param name="item">The CargoItem to add</param>
+    public void LoadCargo(CargoItem item)
         {
             //YOUR CODE HERE
             throw new NotImplementedException();
         }
-            
+
         /// <summary>
         /// Attempts to remove the first item with the passed name from the Cargo and return it
         /// </summary>

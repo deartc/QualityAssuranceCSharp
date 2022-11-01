@@ -1,0 +1,5 @@
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CarTest\Cartestt2\obj\Debug\net6.0\Cartestt2.csproj.AssemblyReference.cache
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CarTest\Cartestt2\obj\Debug\net6.0\Cartestt2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CarTest\Cartestt2\obj\Debug\net6.0\Cartestt2.AssemblyInfoInputs.cache
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CarTest\Cartestt2\obj\Debug\net6.0\Cartestt2.AssemblyInfo.cs
+C:\Users\4dear\source\repos\QualityAssuranceCSharp\CarTest\Cartestt2\obj\Debug\net6.0\Cartestt2.csproj.CoreCompileInputs.cache
