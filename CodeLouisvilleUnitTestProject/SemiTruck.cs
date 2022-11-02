@@ -1,4 +1,7 @@
 ﻿
+using CodeLouisvilleUnitTestProject;
+using System.Xml.Linq;
+
 namespace CodeLouisvilleUnitTestProject
 {
     public class SemiTruck : Vehicle
@@ -8,13 +11,12 @@ namespace CodeLouisvilleUnitTestProject
         /// <summary>
         /// Creates a new SemiTruck that always has 18 Tires
         /// </summary>
+
         public SemiTruck()
-        {
-            public SemiTruck()
-        : this(0, 0, "", "", 0)
+    : this(0, 0, "", "", 0);
 
 
-public SemiTruck (numberOfWheels, double gasTankCapacity, string make, string model, double milesPerGallon)
+public abstract SemiTruck(numberOfWheels, double gasTankCapacity, string make, string model, double milesPerGallon);
             {
                 NumberOfWheels = numberOfWheels;
                 GasTankCapacity = gasTankCapacity;
@@ -22,6 +24,19 @@ public SemiTruck (numberOfWheels, double gasTankCapacity, string make, string mo
                 Model = model;
                 MilesPerGallon = milesPerGallon;
             }
+    public SemiTruck()
+    {
+        {
+            private static void TellMeHowManyWheelsThisHas(Vehicle vehicle);
+            {
+                Console.WriteLine("This vehicle has {0} wheels", vehicle.HowManyWheelsShouldIHave());
+            }
+        }
+
+
+        throw new NotImplementedException();
+    }
+
 
 
             throw new NotImplementedException();
@@ -41,8 +56,10 @@ public SemiTruck (numberOfWheels, double gasTankCapacity, string make, string mo
     /// <param name="item">The CargoItem to add</param>
     public void LoadCargo(CargoItem item)
         {
-            //YOUR CODE HERE
+
             throw new NotImplementedException();
+           if (UnloadCargoWithInvalidCargoItem) Console.WriteLine("No cargo in " + vehicle.Name);
+       else Console.WriteLine(Name + " has been loaded onto " + vehicle.Name);
         }
 
         /// <summary>
@@ -52,10 +69,10 @@ public SemiTruck (numberOfWheels, double gasTankCapacity, string make, string mo
         /// <returns>The removed CargoItem</returns>
         /// <exception cref="ArgumentException">Thrown if no CargoItem in the Cargo matches the passed name</exception>
         public CargoItem UnloadCargo(string name)
-        {
+
             //YOUR CODE HERE
             throw new NotImplementedException();
-        }
+        
 
         /// <summary>
         /// Returns all CargoItems with the exact name passed. If no CargoItems have that name, returns an empty List.

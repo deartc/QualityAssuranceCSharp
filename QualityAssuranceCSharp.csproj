@@ -88,6 +88,7 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeLouisvilleUnitTestProject\CargoItem1.cs" />
     <Compile Include="CodeLouisvilleUnitTestProject\Passengers.cs" />
     <Compile Include="CodeLouisvilleUnitTestProject\Car.cs" />
     <Compile Include="CodeLouisvilleUnitTestProject\CargoItem.cs" />
