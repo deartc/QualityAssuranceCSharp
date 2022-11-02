@@ -27,17 +27,15 @@ public abstract SemiTruck(numberOfWheels, double gasTankCapacity, string make, s
     public SemiTruck()
     {
         {
-            private static void TellMeHowManyWheelsThisHas(Vehicle vehicle);
+            private static void TellMeHowManyWheelsThisHas(SemiTruck, semitruck);
             {
-                Console.WriteLine("This vehicle has {0} wheels", vehicle.HowManyWheelsShouldIHave());
+                Console.WriteLine("This vehicle has {0} wheels", semitruck.HowManyWheelsShouldIHave());
             }
         }
 
 
         throw new NotImplementedException();
     }
-
-     
 
         ///  not sure included     public class SemiTruck
     {
@@ -55,8 +53,8 @@ public abstract SemiTruck(numberOfWheels, double gasTankCapacity, string make, s
         {
 
             throw new NotImplementedException();
-           if (LoadCargoWithInvalidCargoItem) Console.WriteLine("No cargo in " + semiTruck.Name);
-       else Console.WriteLine(Name + " has been loaded onto " + semiTruck.Name);
+           if (UnloadCargoWithInvalidCargoItem) Console.WriteLine("No cargo in " + vehicle.Name);
+       else Console.WriteLine(Name + " has been loaded onto " + vehicle.Name);
         }
 
         /// <summary>
@@ -69,8 +67,6 @@ public abstract SemiTruck(numberOfWheels, double gasTankCapacity, string make, s
 
             //YOUR CODE HERE
             throw new NotImplementedException();
-           if (UnloadCargoWithInvalidCargoItem) 
-    Console.WriteLine("No cargo in " + semiTruck.Name);
 
 
 /// <summary>
@@ -80,8 +76,19 @@ public abstract SemiTruck(numberOfWheels, double gasTankCapacity, string make, s
 /// <returns>A List of CargoItems with the exact name passed</returns>
 public List<CargoItem> GetCargoItemsByName(string name)
         {
-            //YOUR CODE HERE
-            throw new NotImplementedException();
+    public static void Main()
+    {
+        //Cargo description list
+        Cargo[] cargos = new Cargo[]
+        {
+            new Cargo() { Name = "Tote", Description = "Black", Quantity = "1" },
+            new Cargo() { Name = "Suitcase", Description = "Black", Quantity = "1"  },
+            new Cargo() { Name = "Purse",  }, Description = "Black", Quantity = "1" },
+                Cargo cargo = new Cargo() { Name = "Attache", Description = "Black", Quantity = "1" };
+    };
+
+
+    throw new NotImplementedException();
         }
 
         /// <summary>
@@ -102,7 +109,24 @@ public List<CargoItem> GetCargoItemsByName(string name)
         public int GetTotalNumberOfItems()
         {
             //YOUR CODE HERE
-            throw new NotImplementedException();
+            public class CargoItems
+{
+    public static void Main()
+    {
+        List<int> = Enumerable.Repeat(0, 4).ToList();
+
+        int size = newCargo.Count();
+
+        Console.WriteLine("The number of elements in the list is {0}", size);
+    }
+}
+
+
+throw new NotImplementedException();
+
+Console.WriteLine("The number of elements in the list is not valid {0}",
+                  size);
+    }
         }
     }
 }

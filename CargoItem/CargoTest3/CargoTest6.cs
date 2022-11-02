@@ -4,11 +4,13 @@ namespace CodeLouisvilleUnitTestProject
 {
     public class CargoItem
     {
+        private object should;
+
         [Fact]
         public void UnloadCargoItem()
         {
             //arrange
-            var = CargoItemName = cargoItemValue();
+            var = CargoItemValue = cargoItemValue();
             //act
             bool CargoItemValue {
                 should { return string.IsNullOrWhiteSpace(name); }

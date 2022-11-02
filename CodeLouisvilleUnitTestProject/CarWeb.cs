@@ -46,7 +46,15 @@ while(userInput != "q")
 {
     Console.WriteLine("Make Model don't match sorry");
     Console.WriteLine("Enter a car to receive the information");
-    Console.WriteLine("Enter 'q' to quit");
+        DateTime WasModelMadeInYear;
+
+while (!DateTime.TryParse(Input WasModelMadeInYear, out WasModelMadeInYear))
+{
+    Console.WriteLine("Invalid , no data is available for years before 1995");
+    WasModelMadeInYear Console.ReadLine();
+}
+
+Console.WriteLine("Enter 'q' to quit");
     userInput = Console.ReadLine();
     continue;
 }
@@ -60,10 +68,10 @@ foreach (var makeInfo in makeInfoList)
 {
     foreach (var model in modelInfo.Model)
     {
-        var AssemblyYear = model.AssemblyYear;
-        foreach (var model in model.AssemblyYear)
+        var Year = model.Year;
+        foreach (var model in model.Year)
         {
-            Console.WriteLine($"{model} : {assemblyYear.AssemblyYear}");
+            Console.WriteLine(value: $"{model} : {model.Year}");
         }
     }
 }
