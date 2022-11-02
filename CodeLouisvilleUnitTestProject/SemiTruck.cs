@@ -37,10 +37,7 @@ public abstract SemiTruck(numberOfWheels, double gasTankCapacity, string make, s
         throw new NotImplementedException();
     }
 
-
-
-            throw new NotImplementedException();
-        }
+     
 
         ///  not sure included     public class SemiTruck
     {
@@ -58,8 +55,8 @@ public abstract SemiTruck(numberOfWheels, double gasTankCapacity, string make, s
         {
 
             throw new NotImplementedException();
-           if (UnloadCargoWithInvalidCargoItem) Console.WriteLine("No cargo in " + vehicle.Name);
-       else Console.WriteLine(Name + " has been loaded onto " + vehicle.Name);
+           if (LoadCargoWithInvalidCargoItem) Console.WriteLine("No cargo in " + semiTruck.Name);
+       else Console.WriteLine(Name + " has been loaded onto " + semiTruck.Name);
         }
 
         /// <summary>
@@ -72,14 +69,16 @@ public abstract SemiTruck(numberOfWheels, double gasTankCapacity, string make, s
 
             //YOUR CODE HERE
             throw new NotImplementedException();
-        
+           if (UnloadCargoWithInvalidCargoItem) 
+    Console.WriteLine("No cargo in " + semiTruck.Name);
 
-        /// <summary>
-        /// Returns all CargoItems with the exact name passed. If no CargoItems have that name, returns an empty List.
-        /// </summary>
-        /// <param name="name">The name to match</param>
-        /// <returns>A List of CargoItems with the exact name passed</returns>
-        public List<CargoItem> GetCargoItemsByName(string name)
+
+/// <summary>
+/// Returns all CargoItems with the exact name passed. If no CargoItems have that name, returns an empty List.
+/// </summary>
+/// <param name="name">The name to match</param>
+/// <returns>A List of CargoItems with the exact name passed</returns>
+public List<CargoItem> GetCargoItemsByName(string name)
         {
             //YOUR CODE HERE
             throw new NotImplementedException();
